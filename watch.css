@@ -1,0 +1,88 @@
+/* masterpiece.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.watches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.watch {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.watch img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.watch h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.watch p {
+    font-size: 18px;
+    color: #555;
+}
+
+.watch button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.watch button:hover {
+    background: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
